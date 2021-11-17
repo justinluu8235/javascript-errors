@@ -11,6 +11,8 @@ function testInternalError(){
     catch(e){
         console.log(e.name);
         console.log(e.message);
+        console.log(e.stack);
+        console.log(e.errors);
     }
 }
 

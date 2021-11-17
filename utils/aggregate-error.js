@@ -7,6 +7,8 @@ function testAggregateError(){
         console.log(e instanceof AggregateError); // true
         console.log(e.message);                   // "All Promises rejected"
         console.log(e.name);                      // "AggregateError"
+        console.log(e.stack);
+        console.log(e.errors);
       
       })
 }

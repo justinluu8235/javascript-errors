@@ -10,6 +10,8 @@ function evalError() {
         console.log(e.fileName);
         console.log(e.lineNumber);
         console.log(e.columnNumber);
+        console.log(e.stack);
+        console.log(e.errors);
     }
 }
 

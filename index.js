@@ -33,3 +33,4 @@ aggregateErrorModule.testAggregateError();
 let internalErrorModule = require('./utils/internal-error');
 internalErrorModule.testInternalError();
 
+throw new Error("This is an error");

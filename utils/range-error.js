@@ -17,6 +17,8 @@ function checkAge(age){
         if (error instanceof RangeError)
         { // Handle the error 
             console.log('Try putting in a valid age. You entered ' + age + ' as your age');
+            console.log(error.stack);
+            console.log(error.errors);
         }
     }
     

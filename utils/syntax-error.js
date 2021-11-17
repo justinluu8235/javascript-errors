@@ -7,6 +7,8 @@ function testSyntacError(){
         console.error(e.message);
         console.error(e.name);
         console.error(e.fileName);
+        console.log(e.stack);
+        console.log(e.errors);
  
       }
 }
